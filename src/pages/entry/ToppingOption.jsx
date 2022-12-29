@@ -1,6 +1,6 @@
 import Col from 'react-bootstrap/Col';
 
-export default function ScoopOption({
+export default function ToppingOption({
   name,
   imagePath
 }) {
@@ -9,7 +9,7 @@ export default function ScoopOption({
       <img
         style={{ width: '75%' }}
         src={`http://localhost:3030/${imagePath}`}
-        alt={name + ' scoop'}
+        alt={name + ' topping'}
       />
     </Col>
   );
