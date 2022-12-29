@@ -1,7 +1,18 @@
+## Screenshot of main app
+
+![image description](screenshot.png)
+![image description](screenshot1.png)
+
 ## Notes
 npm install @testing-library/user-event@^14
 
 Run above install command for access to userEvent from testing library
+
+## Server
+
+Server is needed to run the project but not for testing
+
+cd server && npm install && npm start
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
